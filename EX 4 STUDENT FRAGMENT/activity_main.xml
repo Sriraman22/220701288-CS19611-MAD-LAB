@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Title TextView -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/students_details_using_fragment"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#4F075B" />
+
+    <!-- Container for Fragments -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <!-- Student Basic Details Fragment -->
+        <fragment
+            android:id="@+id/fragment1"
+            android:name="com.example.fragmentation_student_mark.StudentBasicDetailsActivity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <!-- Student Marks Fragment -->
+        <fragment
+            android:id="@+id/fragment2"
+            android:name="com.example.fragmentation_student_mark.StudentMarkActivity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

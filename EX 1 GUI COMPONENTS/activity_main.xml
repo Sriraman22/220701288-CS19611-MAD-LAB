@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Enter the 1st value: "
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="80dp"
+        />
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="65dp"
+        android:id = "@+id/input1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Enter the 2nd value: "
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="160dp"
+        />
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="140dp"
+        android:id = "@+id/input2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Your Output: "
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="240dp"
+        />
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="240dp"
+        android:id = "@+id/output1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/add"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="450dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:id="@+id/sub"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="450dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:id="@+id/mul"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="450dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:id="@+id/div"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="550dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="%"
+        android:id="@+id/mod"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="550dp"
+        />
+
+
+</RelativeLayout>
